@@ -1,0 +1,16 @@
+.home__wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e3339;
+  color: #fff;
+}
+.main_btn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #000;
+}

@@ -1,0 +1,32 @@
+* {
+  list-style-type: none;
+}
+
+.header {
+  background-color: #2e3339;
+  color: #fff;
+  margin: 0 100px;
+  align-items: center;
+  padding: 10px;
+}
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header__brand {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}

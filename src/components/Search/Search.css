@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Lexend+Deca|Dosis&display=swap");
+body {
+  margin: 0;
+  padding: 16px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+button img {
+  transition: transform 0.25s;
+}
+button:hover > img {
+  transform: scale(1.2);
+}
+button:focus {
+  outline: none;
+}
+
+input {
+  font-family: "Lexend Deca", sans-serif;
+}
+input::placeholder {
+  font-family: "Lexend Deca", sans-serif;
+}
+input:focus {
+  outline: none;
+}
+
+.searchbox {
+  height: 60px;
+  width: 450px;
+  max-width: 100%;
+  background: white;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+}
+.searchbox > .btn-menu {
+  padding: 16px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.searchbox > .search {
+  border: none;
+  width: 100%;
+}
+.searchbox > .btn-search {
+  padding: 16px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
