@@ -1,13 +1,13 @@
-### run below commands to start application.
+# Run below commands to start application.
 
-#### using npm package manager
+###### using npm package manager
 
 ```
 npm install
 npm start
 ```
 
-#### using npm manager
+###### using yarn manager
 
 ```
 yarn
