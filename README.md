@@ -1,6 +1,17 @@
 ### run below commands to start application.
+
+#### using npm package manager
+
 ```
-yarn or npm install
-yarn start or npm start
+npm install
+npm start
 ```
+
+#### using npm manager
+
+```
+yarn
+yarn start
+```
+
 ###### server listens at port 3000
